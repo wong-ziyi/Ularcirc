@@ -1,3 +1,6 @@
+# Note!!!
+I created this branch for fixing the support to the de novo assembled Txdb and the species other than mouse/human.
+
 # Ularcirc
 An R package that provides analysis and visualisation of canonical and backsplice junctions.
 Takes output provided by the STAR aligner as well as CIRI2 and circExplorer2 output and enables circRNA downstream analysis.
