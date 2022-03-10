@@ -1,5 +1,5 @@
 # Note!!!
-I created this branch for fixing the support to the de novo assembled Txdb and the species other than mouse/human.
+I created this branch for fixing the support to the de novo assembled Txdb and the species other than mouse/human. [Click here](https://github.com/VCCRI/Ularcirc) to check the original version
 
 # Ularcirc
 An R package that provides analysis and visualisation of canonical and backsplice junctions.
@@ -14,7 +14,7 @@ You can install Ularcirc using the 'devtools' package.
 
     > install.packages("devtools")
     > library(devtools)
-    > devtools::install_github("VCCRI/Ularcirc", build = TRUE, build_vignettes = TRUE, build_opts = c("--no-resave-data", "--no-manual"))
+    > devtools::install_github("wong-ziyi/Ularcirc", build = TRUE, build_vignettes = FALSE, build_opts = c("--no-resave-data", "--no-manual"))
 
 Ularcirc can annotate circRNA with overlapping gene information. This is obtained from available 
 bioconductor databases. Use the following command to identify what databases to download:
